@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-07-14
+
+### Fixed
+
+- Correct `mcpName` casing (`io.github.ParkSangGwon/admob-mcp-server`) so MCP Registry ownership validation passes.
+
 ## [0.1.0] - 2026-07-14
 
 ### Added
@@ -17,5 +23,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Report responses flattened to row tables with micros-to-currency conversion.
 - Analysis prompts (`top_performing_apps`, `revenue_summary`, `compare_ad_formats`) and report-spec reference resources.
 
-[Unreleased]: https://github.com/ParkSangGwon/admob-mcp-server/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/ParkSangGwon/admob-mcp-server/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/ParkSangGwon/admob-mcp-server/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/ParkSangGwon/admob-mcp-server/releases/tag/v0.1.0

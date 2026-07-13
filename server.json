@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.parksanggwon/admob-mcp-server",
+  "name": "io.github.ParkSangGwon/admob-mcp-server",
   "description": "MCP server for the Google AdMob API — apps, ad units, mediation, and revenue reports",
   "repository": {
     "url": "https://github.com/ParkSangGwon/admob-mcp-server",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "admob-mcp-server",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       }
