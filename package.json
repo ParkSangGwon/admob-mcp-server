@@ -1,0 +1,66 @@
+{
+  "name": "admob-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for the Google AdMob API — apps, ad units, mediation, and revenue reports",
+  "type": "module",
+  "license": "MIT",
+  "author": "Ted Park <gun0912@naver.com> (https://github.com/ParkSangGwon)",
+  "mcpName": "io.github.parksanggwon/admob-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkSangGwon/admob-mcp-server.git"
+  },
+  "homepage": "https://github.com/ParkSangGwon/admob-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/ParkSangGwon/admob-mcp-server/issues"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "mcp-server",
+    "admob",
+    "google-admob",
+    "admob-api",
+    "monetization",
+    "ad-revenue",
+    "claude",
+    "llm"
+  ],
+  "bin": {
+    "admob-mcp-server": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/index.js",
+    "watch": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src tests",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "inspect": "npm run build && npx @modelcontextprotocol/inspector node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@googleapis/admob": "^6.0.2",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "googleapis-common": "^8.0.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.9.5",
+    "shx": "^0.4.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^4.1.10"
+  }
+}

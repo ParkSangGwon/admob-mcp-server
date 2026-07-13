@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.env
+*.log
+.DS_Store
+credentials/
+client_secret*.json
+oauth_client*.json
+token.json
