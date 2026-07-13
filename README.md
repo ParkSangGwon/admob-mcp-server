@@ -13,7 +13,7 @@ Ask your AI assistant about your AdMob apps and earnings — in plain language:
 > - "Compare the RPM of my banner vs. rewarded ad units."
 > - "Create a rewarded ad unit for my new game."
 
-![Asking Claude Code for the last 7 days of per-app AdMob revenue](https://raw.githubusercontent.com/ParkSangGwon/admob-mcp-server/main/docs/demo.png)
+![Asking Claude Code for the last 7 days of per-app AdMob revenue](https://raw.githubusercontent.com/ParkSangGwon/admob-mcp-server/main/docs/demo-en.png)
 
 This is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for the [Google AdMob API](https://developers.google.com/admob/api).\
 It works with Claude Code, Claude Desktop, Cursor, Gemini CLI, and any other MCP-capable AI client.
